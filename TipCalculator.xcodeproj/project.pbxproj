@@ -13,6 +13,7 @@
 		71D4A77C1A7F3E5900A30A28 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71D4A77B1A7F3E5900A30A28 /* Images.xcassets */; };
 		71D4A77F1A7F3E5900A30A28 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71D4A77D1A7F3E5900A30A28 /* LaunchScreen.xib */; };
 		71D4A78B1A7F3E5900A30A28 /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D4A78A1A7F3E5900A30A28 /* TipCalculatorTests.swift */; };
+		71D4A7951A7F3EE600A30A28 /* TipCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D4A7941A7F3EE600A30A28 /* TipCalculatorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		71D4A7841A7F3E5900A30A28 /* TipCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71D4A7891A7F3E5900A30A28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71D4A78A1A7F3E5900A30A28 /* TipCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorTests.swift; sourceTree = "<group>"; };
+		71D4A7941A7F3EE600A30A28 /* TipCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalculatorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		71D4A7661A7F3E5900A30A28 = {
 			isa = PBXGroup;
 			children = (
+				71D4A7941A7F3EE600A30A28 /* TipCalculatorModel.swift */,
 				71D4A7711A7F3E5900A30A28 /* TipCalculator */,
 				71D4A7871A7F3E5900A30A28 /* TipCalculatorTests */,
 				71D4A7701A7F3E5900A30A28 /* Products */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71D4A7951A7F3EE600A30A28 /* TipCalculatorModel.swift in Sources */,
 				71D4A7771A7F3E5900A30A28 /* ViewController.swift in Sources */,
 				71D4A7751A7F3E5900A30A28 /* AppDelegate.swift in Sources */,
 			);
